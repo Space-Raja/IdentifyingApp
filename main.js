@@ -37,7 +37,7 @@ function preload(){
 function setup(){
     
 
-        createCanvas(700, 500);
+        canvas = createCanvas(700, 500);
         capture = createCapture({
           audio: false,
           videeo: {
