@@ -37,7 +37,7 @@ function preload(){
 function setup(){
     
 
-      /*  createCanvas(700, 500);
+        createCanvas(700, 500);
         capture = createCapture({
           audio: false,
           videeo: {
@@ -52,7 +52,7 @@ function setup(){
         model = ml5.objectDetector('cocossd', modelLoaded);
     document.getElementById("status").innerHTML="Status: Started detecting";
 
-*/
+
 
 
     
