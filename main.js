@@ -37,7 +37,7 @@ function preload(){
 function setup(){
     
 
-        canvas = createCanvas(700, 500);
+        canvas = createCanvas(windowWidth, windowHeight);
         capture = createCapture({
           audio: false,
           videeo: {
@@ -47,7 +47,6 @@ function setup(){
           }
         });
         capture.elt.setAttribute('playsinline', '');
-        capture.hide();
 
         model = ml5.objectDetector('cocossd', modelLoaded);
     document.getElementById("status").innerHTML="Status: Started detecting";
@@ -80,8 +79,6 @@ function gotResult(error, results){
 
 function draw(){
  //   image(img,0,0,700,500);
- 
-    image(capture, 0, 0, 700, 500);
  
 
 
