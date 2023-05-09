@@ -79,8 +79,6 @@ function gotResult(error, results){
 
 function draw(){
  //   image(img,0,0,700,500);
- 
-
 
     if(status!=""){
  r = random(255);
